@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70840" started-at="2020-09-08T05:38:22Z" finished-at="2020-09-08T05:39:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70840" started-at="2020-09-08T05:38:22Z" finished-at="2020-09-08T05:39:33Z">
+      <class name="com.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.LoginPageTest@191a895]" name="setUp" is-config="true" duration-ms="26883" started-at="2020-09-08T05:38:22Z" finished-at="2020-09-08T05:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginFunctionslityTest()[pri:1, instance:com.tests.LoginPageTest@191a895]" name="verifyLoginFunctionslityTest" duration-ms="23715" started-at="2020-09-08T05:38:49Z" finished-at="2020-09-08T05:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionslityTest -->
+        <test-method status="PASS" signature="clickWomenEveningDress()[pri:2, instance:com.tests.LoginPageTest@191a895]" name="clickWomenEveningDress" duration-ms="4358" started-at="2020-09-08T05:39:13Z" finished-at="2020-09-08T05:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickWomenEveningDress -->
+        <test-method status="PASS" signature="selectSizeColor()[pri:3, instance:com.tests.LoginPageTest@191a895]" name="selectSizeColor" duration-ms="287" started-at="2020-09-08T05:39:17Z" finished-at="2020-09-08T05:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSizeColor -->
+        <test-method status="PASS" signature="clickOnMoreButton()[pri:5, instance:com.tests.LoginPageTest@191a895]" name="clickOnMoreButton" duration-ms="4635" started-at="2020-09-08T05:39:18Z" finished-at="2020-09-08T05:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMoreButton -->
+        <test-method status="PASS" signature="selectQtyColSize()[pri:6, instance:com.tests.LoginPageTest@191a895]" name="selectQtyColSize" duration-ms="6083" started-at="2020-09-08T05:39:22Z" finished-at="2020-09-08T05:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectQtyColSize -->
+        <test-method status="PASS" signature="validateColorSize()[pri:8, instance:com.tests.LoginPageTest@191a895]" name="validateColorSize" duration-ms="110" started-at="2020-09-08T05:39:28Z" finished-at="2020-09-08T05:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateColorSize -->
+        <test-method status="PASS" signature="validateTotalQuantity()[pri:8, instance:com.tests.LoginPageTest@191a895]" name="validateTotalQuantity" duration-ms="76" started-at="2020-09-08T05:39:29Z" finished-at="2020-09-08T05:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotalQuantity -->
+        <test-method status="PASS" signature="validateColour()[pri:9, instance:com.tests.LoginPageTest@191a895]" name="validateColour" duration-ms="43" started-at="2020-09-08T05:39:29Z" finished-at="2020-09-08T05:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateColour -->
+        <test-method status="PASS" signature="validateSize()[pri:10, instance:com.tests.LoginPageTest@191a895]" name="validateSize" duration-ms="43" started-at="2020-09-08T05:39:29Z" finished-at="2020-09-08T05:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSize -->
+        <test-method status="PASS" signature="validateTotalCost()[pri:11, instance:com.tests.LoginPageTest@191a895]" name="validateTotalCost" duration-ms="53" started-at="2020-09-08T05:39:29Z" finished-at="2020-09-08T05:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotalCost -->
+        <test-method status="PASS" signature="validateTotalshipping()[pri:11, instance:com.tests.LoginPageTest@191a895]" name="validateTotalshipping" duration-ms="63" started-at="2020-09-08T05:39:29Z" finished-at="2020-09-08T05:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotalshipping -->
+        <test-method status="PASS" signature="validateTotalProductCost()[pri:12, instance:com.tests.LoginPageTest@191a895]" name="validateTotalProductCost" duration-ms="189" started-at="2020-09-08T05:39:29Z" finished-at="2020-09-08T05:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotalProductCost -->
+        <test-method status="PASS" signature="PrintAllData()[pri:13, instance:com.tests.LoginPageTest@191a895]" name="PrintAllData" duration-ms="343" started-at="2020-09-08T05:39:29Z" finished-at="2020-09-08T05:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintAllData -->
+        <test-method status="PASS" signature="popUpClosed()[pri:14, instance:com.tests.LoginPageTest@191a895]" name="popUpClosed" duration-ms="173" started-at="2020-09-08T05:39:29Z" finished-at="2020-09-08T05:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUpClosed -->
+        <test-method status="PASS" signature="signOut()[pri:15, instance:com.tests.LoginPageTest@191a895]" name="signOut" duration-ms="2608" started-at="2020-09-08T05:39:30Z" finished-at="2020-09-08T05:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginPageTest@191a895]" name="tearDown" is-config="true" duration-ms="1049" started-at="2020-09-08T05:39:32Z" finished-at="2020-09-08T05:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
