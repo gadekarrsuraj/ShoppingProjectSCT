@@ -6,17 +6,17 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.base.TestBase;
-import com.pages.LoginPage;
+import com.pages.Page;
 
-public class LoginPageTest extends TestBase {
-	LoginPage loginPage;
+public class PageTest extends TestBase {
+	Page loginPage;
 	
 	float shippingChargeExp=(float) 2.0;
 	float productCostExp=(float) 154.97;
 	float totalCostExp=(float) 152.97;
 	
 
-	public LoginPageTest() {
+	public PageTest() {
 		super();
 	}
 
@@ -24,7 +24,7 @@ public class LoginPageTest extends TestBase {
 	public void setUp() {
 		initialization();
 		log.info("Launching the Chrome...");
-		loginPage = new LoginPage();
+		loginPage = new Page();
 		log.info("Opening Browser...");
 
 	}

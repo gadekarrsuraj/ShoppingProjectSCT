@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 import com.base.TestBase;
 
 
-public class LoginPage extends TestBase{
+public class Page extends TestBase{
 	
 	@FindBy(xpath=".//a[@class='login']")
 	WebElement signIn;
@@ -96,7 +96,7 @@ public class LoginPage extends TestBase{
 	@FindBy(xpath=".//a[@class='logout']")
 	WebElement signOut;
 	
-	public LoginPage() {		
+	public Page() {		
 		PageFactory.initElements(driver, this);		
 	}
 	
